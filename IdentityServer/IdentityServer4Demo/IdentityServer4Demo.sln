@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "AuthServer\AuthServer.csproj", "{F30C4A35-EA8E-4E45-9CD2-A930F265EA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiApp", "WebApiApp\WebApiApp.csproj", "{C4A95E28-F9A9-45D8-AFFA-2FCD6362EE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{BAB5873E-9C7A-4C68-B680-7FB2CDE5E1E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30C4A35-EA8E-4E45-9CD2-A930F265EA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30C4A35-EA8E-4E45-9CD2-A930F265EA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30C4A35-EA8E-4E45-9CD2-A930F265EA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30C4A35-EA8E-4E45-9CD2-A930F265EA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A95E28-F9A9-45D8-AFFA-2FCD6362EE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A95E28-F9A9-45D8-AFFA-2FCD6362EE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A95E28-F9A9-45D8-AFFA-2FCD6362EE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A95E28-F9A9-45D8-AFFA-2FCD6362EE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB5873E-9C7A-4C68-B680-7FB2CDE5E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB5873E-9C7A-4C68-B680-7FB2CDE5E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB5873E-9C7A-4C68-B680-7FB2CDE5E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB5873E-9C7A-4C68-B680-7FB2CDE5E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BA66CEC-1CF4-462B-A26F-F178C82BAF27}
+	EndGlobalSection
+EndGlobal
