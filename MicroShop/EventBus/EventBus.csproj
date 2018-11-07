@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Microshop.Infrastructure.EventBus</RootNamespace>
+    <AssemblyName>Microshop.Infrastructure.EventBus</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+  </ItemGroup>
 
 </Project>

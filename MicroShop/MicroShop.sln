@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "EventBus\EventBus.csproj", "{81D1A68B-D343-43E2-94A9-357A7FB6AD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "EventBus\EventBus.csproj", "{81D1A68B-D343-43E2-94A9-357A7FB6AD40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{439D06F9-4624-421C-A890-FA5355CAFBFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D6D27536-AE7A-4601-8F12-BC91821CE24F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{E66B82D1-5054-4361-B1AD-D4401B6D75C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CICD", "CICD", "{4B0B22B9-0D63-4F53-8623-0377523C00DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQEventBus", "RabbitMQEventBus\RabbitMQEventBus.csproj", "{C8FE3E63-B394-4283-9802-E494A6C7C0FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,18 @@ Global
 		{81D1A68B-D343-43E2-94A9-357A7FB6AD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D1A68B-D343-43E2-94A9-357A7FB6AD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D1A68B-D343-43E2-94A9-357A7FB6AD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FE3E63-B394-4283-9802-E494A6C7C0FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FE3E63-B394-4283-9802-E494A6C7C0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FE3E63-B394-4283-9802-E494A6C7C0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FE3E63-B394-4283-9802-E494A6C7C0FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81D1A68B-D343-43E2-94A9-357A7FB6AD40} = {439D06F9-4624-421C-A890-FA5355CAFBFF}
+		{439D06F9-4624-421C-A890-FA5355CAFBFF} = {D6D27536-AE7A-4601-8F12-BC91821CE24F}
+		{C8FE3E63-B394-4283-9802-E494A6C7C0FF} = {439D06F9-4624-421C-A890-FA5355CAFBFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7CD64173-A380-4512-AB7C-DF7A93024A39}

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MicroShop.Infrastructure.EventBus
+namespace Microshop.Infrastructure.EventBus
 {
     public class SubscriptionInfo
     {

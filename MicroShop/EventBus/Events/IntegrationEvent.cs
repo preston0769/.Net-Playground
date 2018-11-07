@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EventBus
+namespace Microshop.Infrastructure.EventBus
 {
     public class IntegrationEvent
     {

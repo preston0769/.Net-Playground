@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventBus.Interface
+namespace Microshop.Infrastructure.EventBus.Interface
 {
     public interface IEventBus
     {
